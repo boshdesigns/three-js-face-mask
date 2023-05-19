@@ -40,10 +40,10 @@ function App() {
   return (
     <div className="App">
       <h1>
-        Example React component with{' '}
         <a href="https://github.com/hiukim/mind-ar-js" target="_blank">
           MindAR
-        </a>
+        </a>{' '}
+        & ThreeJS. Face Mask.
         <p>{`QR value: ${qrCodeValue}`}</p>
       </h1>
 
@@ -64,7 +64,7 @@ function App() {
         <div className="">
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <h2>QR Scanner</h2>
-            <video ref={videoRef} style={{ width: '600px' }} />
+            <video ref={videoRef} style={{ width: '400px', height: '400px' }} />
           </div>
 
           <div className="control-buttons" style={{ display: 'flex', justifyContent: 'center' }}>

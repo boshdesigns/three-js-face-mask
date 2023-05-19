@@ -33,5 +33,5 @@ export default ({ modelID }) => {
     start();
   }, []);
 
-  return <div style={{ width: '100%', height: '100%' }} ref={containerRef}></div>;
+  return <div style={{ width: '400px', height: '400px', overflow: 'hidden' }} ref={containerRef}></div>;
 };
